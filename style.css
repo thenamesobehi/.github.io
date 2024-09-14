@@ -16,6 +16,10 @@ body{
      1px  1px 0 palevioletred;  /* Bottom right */
 }
 
+#baking-logo {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+}
 ul{
     margin: 0px;
 }
