@@ -24,7 +24,9 @@ body{
     border: 5px solid palevioletred; /* Optional: Add a border to the circle */
     display: block;     /* Ensure it behaves like a block element */
     margin-right: 20px; /* Optional: Add spacing between the logo and heading */
+    margin-top: 20px; /* Adjust this value as needed to move the logo down */
 }
+
 
 
 ul{
