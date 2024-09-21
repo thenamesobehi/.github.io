@@ -24,7 +24,7 @@ body{
     border: 5px solid palevioletred; /* Optional: Add a border to the circle */
     display: block;     /* Ensure it behaves like a block element */
     margin-right: 20px; /* Optional: Add spacing between the logo and heading */
-    margin-top: 20px; /* Adjust this value as needed to move the logo down */
+    margin-top: 40px; /* Adjust this value as needed to move the logo down */
 }
 
 
@@ -96,6 +96,11 @@ h2{
     text-align: center;
 }
 
+#footer-title {
+    color: white; /* Make "ObsssBakesCakes" white */
+    font-size: 24px;
+    margin-bottom: 15px;
+}
 
 body > footer{
     background-color: lightpink;
