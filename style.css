@@ -127,3 +127,34 @@ img{
     text-decoration: none;
 }
 
+/* Gallery Section */
+#gallery {
+    text-align: center;
+    padding: 40px;
+    background-color: #f9f1f7;
+}
+
+#gallery h2 {
+    font-family: 'Fredoka One', sans-serif;
+    color: palevioletred;
+    margin-bottom: 20px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Creates responsive columns */
+    gap: 20px; /* Space between images */
+    padding: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow */
+    transition: transform 0.2s ease; /* Smooth hover effect */
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
