@@ -127,6 +127,56 @@ img{
     text-decoration: none;
 }
 
+/* About Us section styles */
+#about-us {
+    text-align: center;
+    padding: 40px;
+    background-color: #f9f1f7; /* light pastel background */
+    color: #333; /* text color */
+}
+
+#about-us h2 {
+    font-family: 'Fredoka One', sans-serif;
+    color: palevioletred; /* Header in your signature color */
+}
+
+#about-us p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    margin: 20px auto;
+    width: 70%; /* Control the width of the text */
+}
+
+#about-photo {
+    margin: 20px auto;
+}
+
+.profile-pic {
+    width: 100px; /* Adjust size */
+    height: 100px;
+    border-radius: 0%;
+    border: 5px solid palevioletred; /* Matches your brand colors */
+}
+
+#gallery-link {
+    margin-top: 20px;
+}
+
+.view-gallery {
+    text-decoration: none;
+    color: white;
+    background-color: palevioletred;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.view-gallery:hover {
+    background-color: lightpink; /* Hover effect */
+}
+
+
+
 /* Gallery Section */
 #gallery {
     text-align: center;
