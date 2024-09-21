@@ -18,18 +18,12 @@ body{
 
 /* Adjust image size */
 #baking-logo {
-    width: 100px; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 20px; /* Add space between logo and heading */
-}
-
-/* Existing CSS for the header */
-header {
-    display: flex;
-    align-items: center;
-    background-color: lightpink;
-    color: white;
-    padding: 10px;
+    width: 150px;       /* Set the desired width */
+    height: 150px;      /* Set the same height to make it a square */
+    border-radius: 50%; /* This makes the image circular */
+    border: 5px solid palevioletred; /* Optional: Add a border to the circle */
+    display: block;     /* Ensure it behaves like a block element */
+    margin-right: 20px; /* Optional: Add spacing between the logo and heading */
 }
 
 
@@ -45,6 +39,17 @@ color: white;
     align-items: center;
     justify-content: space-evenly;
 }
+
+/* Adjust image size */
+#profile-logo {
+    width: 150px;       /* Set the desired width */
+    height: 150px;      /* Set the same height to make it a square */
+    border-radius: 50%; /* This makes the image circular */
+    border: 5px solid palevioletred; /* Optional: Add a border to the circle */
+    display: block;     /* Ensure it behaves like a block element */
+    margin-right: 20px; /* Optional: Add spacing between the logo and heading */
+}
+
 
 #nav-ul{
     display: flex;
