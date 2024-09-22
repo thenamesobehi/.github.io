@@ -153,10 +153,14 @@ img{
 }
 
 .profile-pic {
-    width: 100px; /* Adjust size */
+    width: 250px; /* Adjust size */
     height: 250px;
     border-radius: 10%;
     border: 5px solid palevioletred; /* Matches your brand colors */
+}
+
+.profile-pic:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
 }
 
 #gallery-link {
