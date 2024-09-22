@@ -127,51 +127,6 @@ img{
     text-decoration: none;
 }
 
-/* Front Page section */
-.header-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f9f9f9;
-    padding: 20px;
-}
-
-.header-content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    max-width: 1200px;
-    width: 100%;
-    padding: 20px;
-}
-
-.header-text {
-    flex: 2;
-    padding-right: 20px;
-}
-
-.header-text p {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin: 0;
-}
-
-.header-text h1 {
-    font-size: 2.5em;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-.header-logo {
-    flex: 1;
-    text-align: center;
-}
-
-.header-logo img {
-    width: 150px;
-    height: auto;
-    border-radius: 50%;
-}
 
 /* About Us section styles */
 #about-us {
