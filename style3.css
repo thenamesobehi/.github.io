@@ -339,3 +339,38 @@ img{
     color: palevioletred;
     transition: all ease 0.3s;
 }
+
+
+
+ /* Blog 1 */
+ #firstblog-container {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Make it take full height of its parent */
+}
+
+.container {
+    width: 90%; /* Make it responsive */
+    max-width: 800px; /* Optional: Set a max width */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Optional: Rounded corners */
+}
+
+.firstblog-content p {
+    color: #252525;
+    margin: 1em 0;
+}
+
+.blogimage-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
