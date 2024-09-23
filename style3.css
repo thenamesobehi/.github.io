@@ -54,7 +54,6 @@ color: white;
     margin-right: 20px; /* Optional: Add spacing between the logo and heading */
 }
 
-
 #nav-ul{
     display: flex;
 }
@@ -76,61 +75,31 @@ body > header > nav > ul {
     border-radius: 10%;
 }
 
-body > main article {
-    width: 60%;
-    margin: auto;
+
+
+ /* For side with recipes & Blog Position */
+#recipes-filter {
+    margin-top: 80px; /* Adds space between the blog and the recipes section */
 }
 
-#main-content {
-    margin-left: 0; /* Ensure this value is 0 */
-    padding-left: 0; /* Ensure this value is 0 */
-    width: 100%; /* Adjust as needed */
-}
-#main-content {
-    display: flex;
-    justify-content: space-evenly;
+aside {
+    background-color: #f9f9f9; /* Light background for the aside section */
+    padding: 20px;
+    border: 1px solid #ddd;
 }
 
-
-form{
-    text-align: center;
+aside section {
+    margin-bottom: 20px; /* Adds space between the two sections */
 }
 
-h2{
-    text-align: center;
+aside nav ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-#footer-title {
-    color: white; /* Make "ObsssBakesCakes" white */
-    font-size: 24px;
-    margin-bottom: 15px;
+aside nav ul li {
+    margin-bottom: 10px;
 }
-
-body > footer{
-    background-color: lightpink;
-    display: flex;
-}
-
-img{
-    border-radius: 100%;
-}
-
-#footer-ul {
-    display: flex;
-    list-style: none;
-
-}
-
-#footer-ul > div > li {
-    margin-left: 40px;
-
-}
-
-#footer-ul > div > li > a{
-    color: white;
-    text-decoration: none;
-}
-
 
 /* About Us section styles */
 #about-us {
@@ -240,27 +209,48 @@ img{
     width: 70%; /* Control the width of the text */
 }
 
-/* Blog section styles */
-
-#blog {
-    font-family: 'Fredoka One'
-    , sans-serif;
-    color: palevioletred; /* Header in your signature color */
-    padding: 40px;
+ /* Positioning of Sign Up for Updates */
+h2{
+    text-align: center;
+}
+form{
+    text-align: center;
 }
 
-a{ text-decoration: none;
+ /* For Footer */
+#footer-title {
+    color: white; /* Make "ObsssBakesCakes" white */
+    font-size: 24px;
+    margin-bottom: 15px;
 }
 
-ul{
+body > footer{
+    background-color: lightpink;
+    display: flex;
+}
+
+img{
+    border-radius: 100%;
+}
+
+#footer-ul {
+    display: flex;
     list-style: none;
-}
-body{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Fredoka One', sans-serif;
+
 }
 
+#footer-ul > div > li {
+    margin-left: 40px;
+
+}
+
+#footer-ul > div > li > a{
+    color: white;
+    text-decoration: none;
+}
+
+
+ /* Blog */
 #blog{
     display: flex;
     justify-content: center;
@@ -327,6 +317,7 @@ body{
     font-size: 1.3rem;
     font-weight: 500;
     color: black;
+    margin: 20px 0px; 
 }
 
 .blog-text p{
@@ -337,7 +328,6 @@ body{
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-    margin: 20px 0px;
 }
 
 .blog-text a{
@@ -348,4 +338,3 @@ body{
     color: palevioletred;
     transition: all ease 0.3s;
 }
-
