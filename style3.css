@@ -291,7 +291,7 @@ img{
 }
 
 .blog-img{
-    width: 100%;
+    width: 700px;
     height: auto;
 }
 
@@ -342,7 +342,7 @@ img{
 
 
 
- /* Blog 1 */
+ /* Blog */
  #firstblog-container {
     display: flex; /* Use flexbox for centering */
     justify-content: center; /* Center horizontally */
