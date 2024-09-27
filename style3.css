@@ -4,7 +4,36 @@ body{
     font-size: 1.5vw;
     background-color: #f9f1f7;
 } 
+/* Styles for devices with a maximum width of 768px (tablets, mobile phones in landscape) */
+@media (max-width: 768px) {
+    body {
+        font-size: 3vw; /* Adjust font size for medium screens */
+    }
 
+    header {
+        flex-direction: column; /* Stack header elements vertically */
+    }
+
+    .navbutton {
+        padding: 8px; /* Adjust button padding */
+    }
+}
+
+/* Styles for devices with a maximum width of 480px (mobile phones in portrait) */
+@media (max-width: 480px) {
+    body {
+        font-size: 4vw; /* Further adjust font size */
+    }
+
+    header {
+        height: auto; /* Make header height dynamic */
+    }
+
+    .navbutton {
+        display: block; /* Stack navigation buttons */
+        margin: 5px 0;
+    }
+}
 #Logo {
     margin: 0px;
     padding: 8px;
